@@ -1,0 +1,36 @@
+<!--  
+          - Multimedia and embedding 2 - 
+    - Assignment from MDN Web docs, by Mozilla. https://developer.mozilla.org/en-US/
+    - available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content/Test_your_skills:_Multimedia_and_embedding
+    - Mathews Monoo : 02/04/2019
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Multimedia and embedding 2</title>
+        <style>
+            video {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Video embed</h1>
+
+        <video controls width="320" height="240" muted>
+            <source src="media\video.mp4" type="video/mp4" />
+            <source src="media\video.webm" type="video/webm" />
+            <track
+                kind="subtitles"
+                src="media\subtitles_en.vtt"
+                srclang="en-US"
+            />
+            <p>
+                Your browser does not support HTML5 video. Here is a
+                <a href="media\video.mp4">link to the video</a> instead.
+            </p>
+        </video>
+    </body>
+</html>

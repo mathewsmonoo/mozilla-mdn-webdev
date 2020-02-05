@@ -1,0 +1,42 @@
+<!--  
+          - Multimedia and embedding 3 - 
+    - Assignment from MDN Web docs, by Mozilla. https://developer.mozilla.org/en-US/
+    - available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content/Test_your_skills:_Multimedia_and_embedding
+    - Mathews Monoo : 02/04/2019
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Multimedia and embedding 3</title>
+    </head>
+    <body>
+        <h1>Embedding</h1>
+
+        <!-- PDF embed here  -->
+        <object data="media\mypdf.pdf" type="application/pdf">
+            <p>
+                You don't have a PDF plugin, but you can
+                <a href="media\mypdf.pdf">download the PDF file. </a>
+            </p>
+        </object>
+
+        <hr />
+
+        <!-- 3rd party embed here  -->
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/DAl0tOYDHxg"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        >
+            <p>
+                <a href="https://www.youtube.com/embed/DAl0tOYDHxg"
+                    >Fallback link for browsers that don't support iframes</a
+                >
+            </p>
+        </iframe>
+    </body>
+</html>
