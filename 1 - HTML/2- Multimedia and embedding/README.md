@@ -1,1 +1,1 @@
-Second module tests
+Second module (Multimedia and embedding) tasks

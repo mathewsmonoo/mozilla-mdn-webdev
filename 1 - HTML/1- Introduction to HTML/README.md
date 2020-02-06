@@ -1,1 +1,1 @@
-First module tests.
+First module (introduction to html) tasks.
