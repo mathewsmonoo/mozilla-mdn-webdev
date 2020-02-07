@@ -2,3 +2,6 @@
 *.png
 *.jpg
 .vscode/settings.json
+*.ttf
+*.woff2
+*.woff
